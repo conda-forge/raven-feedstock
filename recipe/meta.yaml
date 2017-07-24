@@ -1,14 +1,14 @@
 {% set name = "raven" %}
-{% set version = "6.0.0" %}
-{% set sha256 = "cee2d745c762230383fc89365770552c93c71205ee92c6e6bbbd85fe4dbb2803" %}
+{% set version = "6.1.0" %}
+{% set sha256 = "02cabffb173b99d860a95d4908e8b1864aad1b8452146e13fd7e212aa576a884" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.zip
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
