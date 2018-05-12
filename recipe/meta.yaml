@@ -1,6 +1,6 @@
 {% set name = "raven" %}
-{% set version = "6.7.0" %}
-{% set sha256 = "f908e9b39f02580e7f822030d119ed3b2e8d32300a2fec6373e5827d588bbae7" %}
+{% set version = "6.8.0" %}
+{% set sha256 = "95aecf76c414facaddbb056f3e98c7936318123e467728f2e50b3a66b65a6ef7" %}
 
 package:
   name: {{ name|lower }}
