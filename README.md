@@ -18,14 +18,16 @@ application.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/raven-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/raven-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/raven-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/raven-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/raven-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/raven-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/raven-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/raven-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/raven-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/raven-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/raven-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/raven-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/raven/badges/version.svg)](https://anaconda.org/conda-forge/raven)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/raven/badges/downloads.svg)](https://anaconda.org/conda-forge/raven)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-raven-green.svg)](https://anaconda.org/conda-forge/raven) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/raven.svg)](https://anaconda.org/conda-forge/raven) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/raven.svg)](https://anaconda.org/conda-forge/raven) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/raven.svg)](https://anaconda.org/conda-forge/raven) |
 
 Installing raven
 ================
