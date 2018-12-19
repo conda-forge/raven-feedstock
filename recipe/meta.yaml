@@ -1,6 +1,6 @@
 {% set name = "raven" %}
-{% set version = "6.9.0" %}
-{% set sha256 = "3fd787d19ebb49919268f06f19310e8112d619ef364f7989246fc8753d469888" %}
+{% set version = "6.10.0" %}
+{% set sha256 = "3fa6de6efa2493a7c827472e984ce9b020797d0da16f1db67197bcc23c8fae54" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - raven = raven.scripts.runner:main
